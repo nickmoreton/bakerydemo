@@ -3,3 +3,4 @@ image:
 
 tasks:
   - init: pip install -r ./requirements.txt
+  command: ./manange.py migrate && ./manage.py load_initial_data && ./manange.py runserver
