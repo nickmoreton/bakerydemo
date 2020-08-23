@@ -4,6 +4,8 @@
 *.swp
 *.retry
 .env
+.idea
+.vscode
 *~
 /logs
 /data
@@ -16,3 +18,4 @@ __pycache__
 /.vagrant/
 /Vagrantfile.local
 !.gitignore
+.theia

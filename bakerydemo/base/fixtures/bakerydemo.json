@@ -13,7 +13,7 @@
   "model": "base.people",
   "pk": 2,
   "fields": {
-    "first_name": "Howling",
+    "first_name": "Howlin'",
     "last_name": "Wolf",
     "job_title": "Director",
     "image": 52
@@ -23,7 +23,7 @@
   "model": "base.people",
   "pk": 3,
   "fields": {
-    "first_name": "Lightning",
+    "first_name": "Lightnin'",
     "last_name": "Hopkins",
     "job_title": "Designer",
     "image": 53
@@ -52,6 +52,7 @@
   "fields": {
     "sort_order": 0,
     "label": "Subject",
+    "clean_name": "subject",
     "field_type": "singleline",
     "required": true,
     "choices": "",
@@ -66,6 +67,7 @@
   "fields": {
     "sort_order": 1,
     "label": "Your Name",
+    "clean_name": "your_name",
     "field_type": "singleline",
     "required": true,
     "choices": "",
@@ -80,6 +82,7 @@
   "fields": {
     "sort_order": 2,
     "label": "Your Email",
+    "clean_name": "your_email",
     "field_type": "email",
     "required": true,
     "choices": "",
@@ -94,6 +97,7 @@
   "fields": {
     "sort_order": 3,
     "label": "Purpose",
+    "clean_name": "purpose",
     "field_type": "dropdown",
     "required": true,
     "choices": "Comment, Question, Feedback",
@@ -108,6 +112,7 @@
   "fields": {
     "sort_order": 4,
     "label": "Body",
+    "clean_name": "body",
     "field_type": "multiline",
     "required": true,
     "choices": "",
@@ -1128,7 +1133,7 @@
   "model": "wagtailforms.formsubmission",
   "pk": 1,
   "fields": {
-    "form_data": "{\"purpose\": \"Feedback\", \"subject\": \"What's up?\", \"body\": \"Love what you guys are doing with the site so far.\", \"your-name\": \"Scot Hacker\", \"your-email\": \"shacker@birdhouse.org\"}",
+    "form_data": "{\"purpose\": \"Feedback\", \"subject\": \"What's up?\", \"body\": \"Love what you guys are doing with the site so far.\", \"your_name\": \"Scot Hacker\", \"your_email\": \"shacker@birdhouse.org\"}",
     "page": 69,
     "submit_time": "2019-02-15T16:56:48.939Z"
   }
@@ -3068,7 +3073,7 @@
   "pk": 48,
   "fields": {
     "collection": 1,
-    "title": "Hofn from above",
+    "title": "Höfn from above",
     "file": "original_images/Hofn.jpg",
     "width": 1200,
     "height": 800,
@@ -3088,7 +3093,7 @@
   "pk": 49,
   "fields": {
     "collection": 1,
-    "title": "Arkranes",
+    "title": "Akranes",
     "file": "original_images/Akranes.jpg",
     "width": 1200,
     "height": 800,
@@ -3128,7 +3133,7 @@
   "pk": 52,
   "fields": {
     "collection": 3,
-    "title": "Howlin Wolf",
+    "title": "Howlin' Wolf",
     "file": "original_images/howlin.jpg",
     "width": 300,
     "height": 294,
